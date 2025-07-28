@@ -1,0 +1,16 @@
+{
+  "name": "synternet-price-pubsub",
+  "version": "1.0.0",
+  "description": "A Node.js application to subscribe to Synternet price data",
+  "main": "synternet.prices.js",
+  "scripts": {
+    "start": "node synternet.prices.js"
+  },
+  "keywords": ["synternet", "pubsub", "nodejs", "realtime"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "pubsub-js": "^0.2.1",
+    "dotenv": "^17.2.1"
+  }
+}
